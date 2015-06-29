@@ -7,7 +7,7 @@
 		<version>7</version>
 	</parent>
 	<groupId>net.aoj</groupId>
-	<artifactId>ROOT</artifactId>
+	<artifactId>ROOT-main</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<description>This archetype is based on org.fluttercode.knappsack/spring-jsf-jpa-archetype/1.1 one.
@@ -173,7 +173,7 @@ This new archetype upgrade libraries to JSF 2.2, Spring 4 and JPA 2.1</descripti
 		</plugins>
 	</build>
   <modules>
-    <module>ROOT-web</module>
+    <module>ROOT</module>
     <module>ROOT-services</module>
   </modules>
 </project>

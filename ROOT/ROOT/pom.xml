@@ -3,10 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>net.aoj</groupId>
-		<artifactId>ROOT</artifactId>
+		<artifactId>ROOT-main</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>ROOT-web</artifactId>
+	<artifactId>ROOT</artifactId>
 	<packaging>war</packaging>
 	<name>web</name>
 
