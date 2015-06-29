@@ -24,7 +24,7 @@
 		<h:form>
 			<div jsf:id="wrapper"
 				style="border-top: 1px solid #d0d0d0; margin-top: 12px; padding-top: 12px">
-                <h:inputText value="#{taskBB.task.name}" id="taskDesc" p:placeholder="Type a task Name" maxlength="48" required="true" label="Task">
+                <h:inputText value="#{taskBB.task.name}" id="taskName" p:placeholder="Type a task Name" maxlength="48" required="true" label="Task">
 					<f:validateLength maximum="24"/>
 				</h:inputText>
 				<h:inputText value="#{taskBB.task.description}" id="taskDesc" p:placeholder="Type a task Description" maxlength="48" required="true" label="Task">
