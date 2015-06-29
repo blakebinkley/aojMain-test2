@@ -12,7 +12,7 @@
 	<packaging>pom</packaging>
 	<description>This archetype is based on org.fluttercode.knappsack/spring-jsf-jpa-archetype/1.1 one.
 This new archetype upgrade libraries to JSF 2.2, Spring 4 and JPA 2.1</description>
-	<name>JSF2 Spring4 JPA2 Archetype</name>
+	<name>AOJ Main</name>
 	<scm>
 		<url>https://bitbucket.org/cosenonjaviste/jsf2-spring4-jpa2-archetype</url>
 		<connection>scm:git:https://bitbucket.org/cosenonjaviste/jsf2-spring4-jpa2-archetype.git</connection>
