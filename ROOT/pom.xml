@@ -47,7 +47,7 @@
         <entitymanager.version>4.3.1.Final</entitymanager.version>
         <commons.collections.version>3.1</commons.collections.version>
         <hsqldb.version>2.3.1</hsqldb.version>
-        <tomcat.dbcp>7.0.41</tomcat.dbcp>
+        <tomcat.dbcp>7.0.41</tomcat.dbcp>        
     </properties>
 
     <dependencyManagement>
@@ -176,4 +176,17 @@
         <module>ROOT</module>
         <module>ROOT-services</module>
     </modules>
+    
+    <repositories>
+        <repository>
+            <id>spring-releases</id>
+            <url>https://repo.spring.io/libs-release</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spring-releases</id>
+            <url>https://repo.spring.io/libs-release</url>
+        </pluginRepository>
+    </pluginRepositories>
 </project>
