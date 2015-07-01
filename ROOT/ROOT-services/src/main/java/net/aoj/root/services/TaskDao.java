@@ -12,19 +12,19 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Component
 public class TaskDao {
-	
-	@PersistenceContext
-	private EntityManager entityManager;
 
-	@Transactional
-	public void save(Task task) {
-		entityManager.persist(task);
-	}
+    @PersistenceContext
+    private EntityManager entityManager;
 
-	@SuppressWarnings("unchecked")
-	public List<Task> list() {
-		return entityManager.createQuery("select t from Task t")
-				.getResultList();
-	}
+    @Transactional
+    public void save(Task task) {
+        entityManager.persist(task);
+    }
+
+    @SuppressWarnings("unchecked")
+    public List<Task> list() {
+        return entityManager.createQuery("select t from Task t")
+                .getResultList();
+    }
 
 }

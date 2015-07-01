@@ -9,23 +9,23 @@ import javax.persistence.Id;
 @Entity
 public class Task {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
 
     @Column(length = 24)
-	private String name;
-    
-	@Column(length = 48)
-	private String description;
+    private String name;
 
-	public Long getId() {
-		return id;
-	}
+    @Column(length = 48)
+    private String description;
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
@@ -35,12 +35,12 @@ public class Task {
         this.name = name;
     }
 
-	public String getDescription() {
-		return description;
-	}
+    public String getDescription() {
+        return description;
+    }
 
-	public void setDescription(String description) {
-		this.description = description;
-	}
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
 }
